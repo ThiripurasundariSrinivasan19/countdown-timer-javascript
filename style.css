@@ -1,0 +1,49 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.section-center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.section-center .gift-img {
+  height: 100%;
+  display: block;
+}
+.section-center .gift-img img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-center .gift-info {
+  display: grid;
+}
+.section-center .gift-info h3 {
+  font-size: 28px;
+  color: #7a1ddd;
+}
+
+.deadline {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 5px;
+}
+.deadline h4 {
+  margin: 0;
+}
+.deadline .deadline-format {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */
